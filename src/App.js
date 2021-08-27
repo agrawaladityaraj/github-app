@@ -11,7 +11,7 @@ import GithubState from "./Context/GithubContext/GithubState";
 
 const App = () => {
   return (
-    <Router basename="/githubApp">
+    <Router>
       <div>
         <GithubState>
           <Navbar title="Github App " logo="fab fa-github" />
